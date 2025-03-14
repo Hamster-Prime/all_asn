@@ -1,0 +1,35 @@
+name: Daily ASN Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天UTC时间00:00运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-asn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Run ASN crawler for multiple countries
+        run: |
+          python asn_crawler.py --country cn --delay 5
+          python asn_crawler.py --country jp --delay 5
+          python asn_crawler.py --country us --delay 5
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add CN_ASN.rsc JP_ASN.rsc US_ASN.rsc
+          git commit -m "Daily ASN update $(date '+%Y-%m-%d')" || echo "No changes to commit"
+          git push
