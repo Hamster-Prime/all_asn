@@ -6477,7 +6477,6 @@
 :do { add list=CN_ASN range=210872 } on-error={}
 :do { add list=CN_ASN range=146958 } on-error={}
 :do { add list=CN_ASN range=146959 } on-error={}
-:do { add list=CN_ASN range=210815 } on-error={}
 :do { add list=CN_ASN range=38323 } on-error={}
 :do { add list=CN_ASN range=58336 } on-error={}
 :do { add list=CN_ASN range=208588 } on-error={}
