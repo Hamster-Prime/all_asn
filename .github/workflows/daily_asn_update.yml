@@ -22,7 +22,6 @@ jobs:
       
       - name: Run ASN crawler for multiple countries
         run: |
-          python asn_crawler.py --country cn --delay 5
           python asn_crawler.py --country hk --delay 5
           python asn_crawler.py --country jp --delay 5
           python asn_crawler.py --country kr --delay 5
@@ -34,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add CN_ASN.rsc HK_ASN.rsc JP_ASN.rsc KR_ASN.rsc SG_ASN.rsc US_ASN.rsc DE_ASN.rsc
+          git add HK_ASN.rsc JP_ASN.rsc KR_ASN.rsc SG_ASN.rsc US_ASN.rsc DE_ASN.rsc
           git commit -m "Daily ASN update $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push
