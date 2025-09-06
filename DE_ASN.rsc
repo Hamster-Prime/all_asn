@@ -3267,7 +3267,6 @@
 :do { add list=DE_ASN range=216079 } on-error={}
 :do { add list=DE_ASN range=216114 } on-error={}
 :do { add list=DE_ASN range=216065 } on-error={}
-:do { add list=DE_ASN range=216043 } on-error={}
 :do { add list=DE_ASN range=216020 } on-error={}
 :do { add list=DE_ASN range=215960 } on-error={}
 :do { add list=DE_ASN range=215849 } on-error={}
