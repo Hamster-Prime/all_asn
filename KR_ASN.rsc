@@ -1174,7 +1174,6 @@
 :do { add list=KR_ASN range=215190 } on-error={}
 :do { add list=KR_ASN range=215087 } on-error={}
 :do { add list=KR_ASN range=214765 } on-error={}
-:do { add list=KR_ASN range=214578 } on-error={}
 :do { add list=KR_ASN range=214510 } on-error={}
 :do { add list=KR_ASN range=213800 } on-error={}
 :do { add list=KR_ASN range=153782 } on-error={}
