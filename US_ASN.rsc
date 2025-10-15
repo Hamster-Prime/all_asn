@@ -32448,3 +32448,11 @@
 :do { add list=US_ASN range=402073 } on-error={}
 :do { add list=US_ASN range=402074 } on-error={}
 :do { add list=US_ASN range=402075 } on-error={}
+:do { add list=US_ASN range=402070 } on-error={}
+:do { add list=US_ASN range=402076 } on-error={}
+:do { add list=US_ASN range=402077 } on-error={}
+:do { add list=US_ASN range=402078 } on-error={}
+:do { add list=US_ASN range=402079 } on-error={}
+:do { add list=US_ASN range=402080 } on-error={}
+:do { add list=US_ASN range=402082 } on-error={}
+:do { add list=US_ASN range=402084 } on-error={}
