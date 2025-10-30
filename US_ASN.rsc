@@ -20000,7 +20000,6 @@
 :do { add list=US_ASN range=210311 } on-error={}
 :do { add list=US_ASN range=211673 } on-error={}
 :do { add list=US_ASN range=398818 } on-error={}
-:do { add list=US_ASN range=63193 } on-error={}
 :do { add list=US_ASN range=63301 } on-error={}
 :do { add list=US_ASN range=14802 } on-error={}
 :do { add list=US_ASN range=395619 } on-error={}
