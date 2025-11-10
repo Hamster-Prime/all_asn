@@ -1320,9 +1320,7 @@
 :do { add list=HK_ASN range=146992 } on-error={}
 :do { add list=HK_ASN range=38324 } on-error={}
 :do { add list=HK_ASN range=147010 } on-error={}
-:do { add list=HK_ASN range=147016 } on-error={}
 :do { add list=HK_ASN range=147021 } on-error={}
-:do { add list=HK_ASN range=147028 } on-error={}
 :do { add list=HK_ASN range=147041 } on-error={}
 :do { add list=HK_ASN range=147043 } on-error={}
 :do { add list=HK_ASN range=147047 } on-error={}
