@@ -742,3 +742,4 @@
 :do { add list=SG_ASN range=154316 } on-error={}
 :do { add list=SG_ASN range=154319 } on-error={}
 :do { add list=SG_ASN range=154324 } on-error={}
+:do { add list=SG_ASN range=154343 } on-error={}
