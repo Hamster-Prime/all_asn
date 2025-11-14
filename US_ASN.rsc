@@ -10,8 +10,8 @@
 :do { add list=US_ASN range=6167 } on-error={}
 :do { add list=US_ASN range=4249 } on-error={}
 :do { add list=US_ASN range=714 } on-error={}
-:do { add list=US_ASN range=396982 } on-error={}
 :do { add list=US_ASN range=701 } on-error={}
+:do { add list=US_ASN range=396982 } on-error={}
 :do { add list=US_ASN range=3356 } on-error={}
 :do { add list=US_ASN range=22394 } on-error={}
 :do { add list=US_ASN range=209 } on-error={}
