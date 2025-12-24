@@ -1227,7 +1227,6 @@
 :do { add list=JP_ASN range=150143 } on-error={}
 :do { add list=JP_ASN range=150298 } on-error={}
 :do { add list=JP_ASN range=150314 } on-error={}
-:do { add list=JP_ASN range=202747 } on-error={}
 :do { add list=JP_ASN range=150355 } on-error={}
 :do { add list=JP_ASN range=150360 } on-error={}
 :do { add list=JP_ASN range=150361 } on-error={}
